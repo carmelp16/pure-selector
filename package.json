@@ -1,0 +1,36 @@
+{
+  "name": "pure-selector",
+  "version": "0.1.0",
+  "description": "Custom react hook that enables memoization of redux data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carmelp16/pure-selector.git"
+  },
+  "keywords": [
+    "select"
+  ],
+  "author": "Carmel Paradis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carmelp16/pure-selector/issues"
+  },
+  "homepage": "https://github.com/carmelp16/pure-selector#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.144",
+    "@types/react": "^16.9.9",
+    "@types/react-redux": "^7.1.5",
+    "ts-loader": "^6.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "react": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "reselect": "^4.0.0"
+  }
+}
