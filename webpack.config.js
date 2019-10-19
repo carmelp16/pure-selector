@@ -1,8 +1,8 @@
-export default {
+module.exports = {
   mode: "production",
 
   resolve: {
-    extensions: [".ts"]
+    extensions: [".ts", ".js"]
   },
 
   module: {
